@@ -1,0 +1,44 @@
+{
+  "id": "chat-merge-fixed",
+  "name": "chat-merge-fixed",
+  "title": "Chat Merge Fixed",
+  "author": "Hello World, MRKB",
+  "authors": [
+    {
+      "name": "Hello World, MRKB",
+      "flags": {}
+    }
+  ],
+  "description": "Merges chat messages from the same speaker.",
+  "version": "0.0.1",
+  "minimumCoreVersion" : "0.6.4",
+  "compatibleCoreVersion": "10.291",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.291"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "socket": true,
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "한국어 (Korean)",
+      "path": "lang/ko.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/MaronKB/chat-merge-fixed",
+  "manifest": "https://raw.githubusercontent.com/chat-merge-fixed/module.json",
+  "download": "https://github.com/MaronKB/chat-merge-fixed/archive/main.zip"
+}
